@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">520外卖</string>
+    <string name="enter">点击进入</string>
+    <string name="home">首页</string>
+    <string name="order">订单</string>
+    <string name="mine">我的</string>
+    <string name="home1">附近餐厅</string>
+    <string name="home2">餐厅多，优惠多多</string>
+    <string name="home3">精品餐厅</string>
+    <string name="home4">让自己吃好一点</string>
+    <string name="home5">满减特惠</string>
+    <string name="home6">品味惠生活</string>
+    <string name="home7">红包专享</string>
+    <string name="home8">省了再省</string>
+    <string name="send">发送</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="loginOrRegister">登录/注册</string>
+    <string name="telephone">请输入手机号码</string>
+    <string name="password">密码6-10位数字和字母组合</string>
+
+    <string name="hot_food">附近热门美食</string>
+    <string name="no_hot_food">附近没有热门美食哦</string>
+    <string name="dingWaiMai">告诉我们您要订外卖</string>
+    <string name="noService">很抱歉，你不在服务区内</string>
+    <string name="address">请手动输入您的具体地址，我们将去开拓市场！</string>
+
+
+</resources>
