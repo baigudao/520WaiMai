@@ -9,7 +9,6 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.preference.PreferenceActivity;
 import android.provider.MediaStore;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -31,13 +30,9 @@ import android.widget.Toast;
 import com.jackie.waimai.R;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.RequestParams;
-import com.loopj.android.http.ResponseHandlerInterface;
 import com.loopj.android.http.TextHttpResponseHandler;
 
-import org.apache.http.Header;
-
 import java.io.File;
-import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -121,6 +116,7 @@ public class LoginAndRegister extends Activity {
                     public void onFailure(int i, org.apache.http.Header[] headers, String s, Throwable throwable) {
                         Toast.makeText(LoginAndRegister.this, throwable.getMessage(), Toast.LENGTH_SHORT).show();
                     }
+
                     @Override
                     public void onSuccess(int i, org.apache.http.Header[] headers, String s) {
                         Toast.makeText(LoginAndRegister.this, s, Toast.LENGTH_SHORT).show();
@@ -160,6 +156,7 @@ public class LoginAndRegister extends Activity {
                     public void onFailure(int i, org.apache.http.Header[] headers, String s, Throwable throwable) {
                         Toast.makeText(LoginAndRegister.this, throwable.getMessage(), Toast.LENGTH_SHORT).show();
                     }
+
                     @Override
                     public void onSuccess(int i, org.apache.http.Header[] headers, String s) {
                         Toast.makeText(LoginAndRegister.this, s, Toast.LENGTH_SHORT).show();
